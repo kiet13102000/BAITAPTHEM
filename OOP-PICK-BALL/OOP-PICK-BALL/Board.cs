@@ -46,5 +46,18 @@ namespace OOP_PICK_BALL
             }
             return false;
         }
+        public void PickBall ( int group , int balls)
+        {
+            if (group == 1)
+            {
+                G1 -= balls;
+            }else if (group == 2)
+            {
+                G2 -= balls;
+            }else if (group == 3)
+            {
+                G3 -= balls;
+            }
+        }
     }
 }
