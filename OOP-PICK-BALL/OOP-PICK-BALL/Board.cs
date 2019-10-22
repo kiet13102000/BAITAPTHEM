@@ -58,7 +58,42 @@ namespace OOP_PICK_BALL
             {
                 G3 -= balls;
             }
-
+            
         }
+        public int Gve()
+        {
+            if (G1 == 0)
+            {
+                return G1;
+            }
+            else if(G2 ==0)
+            {
+                return G2;
+            }else if (G3==0)
+            {
+                return G3;
+            }
+            else return 0;
+        }
+        public void check()
+        {
+            if(G1 == 0)
+            {
+                Console.WriteLine("Group1 da het bong, vui long nhap lai");
+            }
+            if (G2 == 0)
+            {
+                Console.WriteLine("Group2 da het bong, vui long nhap lai");
+
+            }
+            if(G3 ==0)
+            {
+                Console.WriteLine("Group3 da het bong, vui long nhap lai");
+
+            }
+        }
+       
+     
+       
     }
 }

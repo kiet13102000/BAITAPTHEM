@@ -20,8 +20,12 @@ namespace OOP_PICK_BALL
             int group = int.Parse(Console.ReadLine());
             Console.WriteLine("How many you want pickballs : ");
             int balls = int.Parse(Console.ReadLine());
-         
             game.PickBall(group, balls);
+
+            //if (group == 1 || game.Gve() == 0)
+            //{
+            //    game.check();
+            //}
         }
         public string GetName()
         {
