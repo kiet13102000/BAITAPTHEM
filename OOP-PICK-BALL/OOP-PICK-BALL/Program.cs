@@ -10,6 +10,8 @@ namespace OOP_PICK_BALL
     {
         static void Main(string[] args)
         {
+            Controller c = new Controller();
+            c.playGame();
         }
     }
 }

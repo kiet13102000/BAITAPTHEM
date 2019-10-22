@@ -14,9 +14,18 @@ namespace OOP_PICK_BALL
             name = namer;
         }
 
-        public void PickBall()
+        public void PickBall(Board game)
         {
-
+            Console.WriteLine("What you want pickball group ? ");
+            int group = int.Parse(Console.ReadLine());
+            Console.WriteLine("How many you want pickballs : ");
+            int balls = int.Parse(Console.ReadLine());
+         
+            game.PickBall(group, balls);
+        }
+        public string GetName()
+        {
+            return name;
         }
     }
 }

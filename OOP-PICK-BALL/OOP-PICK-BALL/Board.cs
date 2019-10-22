@@ -38,7 +38,7 @@ namespace OOP_PICK_BALL
 
         }
 
-        public bool GameOVer()
+        public bool IsGameOVer()
         {
             if (G1 == 0 && G2 == 0 && G3 == 0)
             {
@@ -58,6 +58,7 @@ namespace OOP_PICK_BALL
             {
                 G3 -= balls;
             }
+
         }
     }
 }
